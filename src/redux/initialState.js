@@ -1,5 +1,5 @@
-const initialState ={
-    tables: [],
-    states: ['Empty', 'Busy', 'Cleaning', 'Reserved'],
-    };
-    export default initialState;
+const initialState = {
+	tables: [],
+	status: ['Empty', 'Busy', 'Cleaning', 'Reserved'],
+};
+export default initialState;
