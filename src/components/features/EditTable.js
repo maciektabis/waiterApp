@@ -5,13 +5,13 @@ import TableForm from './TableForm';
 
 const EditTable = () => {
 	const {id} = useParams();
-	const editTables = useSelector((state) => getTableById(state, id));
+	const editTables = useSelector((status) => getTableById(status, id));
 	return (
 		<TableForm
 			actionText='Change'
 			id={editTables.id}
-			people={editTables.people}
-			maxPeople={editTables.maxPeople}
+			peopleAmount={editTables.peopleAmount}
+			maxPeopleAmount={editTables.maxPeopleAmount}
 			status={editTables.status}
 			bill={editTables.bill}
 		/>

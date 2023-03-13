@@ -11,7 +11,7 @@ const Table = ({status, id}) => {
 					<strong>Status:</strong> {status} {''}
 				</Col>
 				<Col className='col-6 d-flex justify-content-end'>
-					<Link to={'/table/' + id}>
+					<Link to={'/edittable/' + id}>
 						<Button variant='primary' size='sm'>
 							Show more
 						</Button>
